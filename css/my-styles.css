@@ -4,6 +4,24 @@ body {
   margin-top: 50px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+
 /*******Page Styles*******/
 
 #home, #projects, #about, #contact {
@@ -12,6 +30,11 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   height:100vh;
+}
+
+.container {
+  padding-top: 10%;
+  max-width: 60%;
 }
 
 /*******Home*******/
@@ -32,6 +55,13 @@ body {
 /*******Projects*******/
 #projects {
   background-color: blue;
+}
+
+#projects img {
+  border-radius: 50%;
+  float: left;
+  height: 15vh;
+  margin-right: 10px;
 }
 
 /*******About*******/
