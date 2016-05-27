@@ -101,8 +101,8 @@ ul {
 #projects img {
   border: 1px solid #383838;
   float: left;
-  margin: 10px;
-  padding: 2px;
+  margin: 2vh;
+  padding: 1vh;
 }
 
 #projects p:first-of-type strong:first-of-type {
@@ -110,7 +110,7 @@ ul {
 }
 
 #projects .container {
-  padding-top: 30vh;
+  padding-top: 15vh;
 }
 
 /*******About*******/
@@ -120,6 +120,7 @@ ul {
 
 #about img {
     border-radius: 50%;
+    margin-bottom: 2vh;
 }
 
 #about li {
