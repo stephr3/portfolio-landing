@@ -42,8 +42,8 @@ img {
 }
 
 .container {
-  padding-top: 10%;
-  max-width: 60%;
+  padding-top: 10vh;
+  max-width: 80%;
 }
 
 /*******Home*******/
@@ -52,7 +52,7 @@ img {
 }
 
 #home .title-content {
-  padding-top: 15%;
+  padding-top: 15vh;
   max-width: 50%;
   margin: auto;
 }
@@ -72,7 +72,7 @@ img {
 }
 
 #projects .container {
-  padding-top: 15%;
+  padding-top: 30vh;
 }
 
 /*******About*******/
@@ -81,7 +81,7 @@ img {
 }
 
 #about h3 {
-  margin-top: 5%;
+  margin-top: 5vh;
 }
 
 #about h4 {
@@ -89,7 +89,7 @@ img {
 }
 
 #about .container {
-  padding-top: 1%;
+  padding-top: 5vh;
   max-width: 90%;
 }
 
@@ -104,6 +104,6 @@ img {
 }
 
 #contact .container {
-  padding-top: 18%;
+  padding-top: 33vh;
   text-align: center;
 }
