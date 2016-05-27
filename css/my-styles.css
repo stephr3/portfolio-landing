@@ -1,5 +1,4 @@
 /*******General Styles*******/
-
 body {
   background-color: #EDD3ED;
   color: #383838;
@@ -44,21 +43,21 @@ hr {
   border: 1px solid #565C5E;
 }
 
-p {
-  line-height: 1.5em;
-}
-
-ul {
-  padding: 0;
-  list-style: none;
-}
-
 img {
   height: 20vh;
 }
 
+p {
+  line-height: 1.5em;
+}
+
 strong, em {
   font-size: 1.1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
 
 .fa {
@@ -90,8 +89,8 @@ strong, em {
 /*******Home*******/
 #home .title-content {
   padding-top: 33vh;
-  max-width: 50%;
   margin: auto;
+  max-width: 50%;
 }
 
 #home .title-content h1,h3 {
@@ -100,10 +99,10 @@ strong, em {
 
 /*******Projects*******/
 #projects img {
+  border: 1px solid #383838;
   float: left;
   margin: 10px;
   padding: 2px;
-  border: 1px solid #383838;
 }
 
 #projects p:first-of-type strong:first-of-type {
@@ -119,12 +118,12 @@ strong, em {
   margin-top:0;
 }
 
-#about li {
-  padding-bottom: 1vh;
-}
-
 #about img {
     border-radius: 50%;
+}
+
+#about li {
+  padding-bottom: 1vh;
 }
 
 #about strong {
