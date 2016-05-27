@@ -53,6 +53,10 @@ img {
   height: 20vh;
 }
 
+strong, em {
+  font-size: 1.1em;
+}
+
 .fa {
   font-size: 3em;
 }
@@ -98,12 +102,16 @@ img {
   border: 1px solid #383838;
 }
 
-#projects .container {
-  padding-top: 30vh;
-}
-
 #projects h4 {
   font-weight: 500;
+}
+
+#projects p:first-of-type strong:first-of-type {
+  font-size: 1.4em;
+}
+
+#projects .container {
+  padding-top: 30vh;
 }
 
 /*******About*******/
