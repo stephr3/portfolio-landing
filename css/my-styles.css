@@ -26,6 +26,10 @@ img {
   height: 20vh;
 }
 
+.glyphicon {
+  font-size: 3em;
+}
+
 
 /*******Page Styles*******/
 
@@ -92,4 +96,14 @@ img {
 /*******Contact*******/
 #contact {
   background-color: pink;
+}
+
+#contact li {
+  display: inline;
+  padding-right: 10px;
+}
+
+#contact .container {
+  padding-top: 18%;
+  text-align: center;
 }
