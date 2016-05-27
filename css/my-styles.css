@@ -1,12 +1,32 @@
+/*******General Styles*******/
+
+body {
+  margin-top: 50px;
+}
+
 /*******Page Styles*******/
 
 #home, #projects, #about, #contact {
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
   height:100vh;
 }
 
 /*******Home*******/
 #home {
   background-color: red;
+}
+
+#home .title-content {
+  padding-top: 15%;
+  max-width: 50%;
+  margin: auto;
+}
+
+#home .title-content h1,h3 {
+  text-align: center;
 }
 
 /*******Projects*******/
