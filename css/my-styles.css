@@ -145,4 +145,11 @@ ul {
 #contact .container {
   padding-top: 33vh;
   text-align: center;
+  padding-bottom: 36vh;
+}
+
+/*******Footer*******/
+.footer {
+  bottom:0;
+  text-align: center;
 }
