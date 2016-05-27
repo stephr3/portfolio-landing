@@ -8,14 +8,20 @@ body {
   margin-top: 50px;
 }
 
-a {
+a, a:hover, a:visited {
   text-decoration: none;
+}
+
+a {
   color: #489CB8;
 }
 
 a:hover {
-  text-decoration: none;
   color: #37758A;
+}
+
+a:visited {
+  color: #646566;
 }
 
 h1, h3 {
@@ -90,6 +96,10 @@ img {
 
 #projects .container {
   padding-top: 30vh;
+}
+
+#projects h4 {
+  font-weight: 500;
 }
 
 /*******About*******/
