@@ -1,6 +1,10 @@
 /*******General Styles*******/
 
 body {
+  background-color: #D8E8ED;
+  color: #383838;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
   margin-top: 50px;
 }
 
@@ -10,6 +14,22 @@ a {
 
 a:hover {
   text-decoration: none;
+}
+
+h1, h3 {
+  font-family: 'Kaushan Script', cursive;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+hr {
+  border: 1px solid #565C5E;
 }
 
 p {
@@ -48,7 +68,7 @@ img {
 
 /*******Home*******/
 #home {
-  background-color: red;
+  background-image: url("../img/floral-background.jpg");
 }
 
 #home .title-content {
