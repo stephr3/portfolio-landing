@@ -38,7 +38,7 @@ img {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
-  height:100vh;
+  min-height:100vh;
 }
 
 .container {
@@ -52,7 +52,7 @@ img {
 }
 
 #home .title-content {
-  padding-top: 15vh;
+  padding-top: 33vh;
   max-width: 50%;
   margin: auto;
 }
