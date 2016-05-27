@@ -1,1 +1,25 @@
+/*******Page Styles*******/
 
+#home, #projects, #about, #contact {
+  height:100vh;
+}
+
+/*******Home*******/
+#home {
+  background-color: red;
+}
+
+/*******Projects*******/
+#projects {
+  background-color: blue;
+}
+
+/*******About*******/
+#about {
+  background-color: green;
+}
+
+/*******Contact*******/
+#contact {
+  background-color: pink;
+}
