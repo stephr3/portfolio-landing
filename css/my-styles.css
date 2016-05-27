@@ -21,6 +21,11 @@ ul {
   list-style: none;
 }
 
+img {
+  border-radius: 50%;
+  height: 20vh;
+}
+
 
 /*******Page Styles*******/
 
@@ -58,15 +63,30 @@ ul {
 }
 
 #projects img {
-  border-radius: 50%;
   float: left;
-  height: 15vh;
   margin-right: 10px;
+}
+
+#projects .container {
+  padding-top: 15%;
 }
 
 /*******About*******/
 #about {
   background-color: green;
+}
+
+#about h3 {
+  margin-top: 5%;
+}
+
+#about h4 {
+  margin-top:0;
+}
+
+#about .container {
+  padding-top: 1%;
+  max-width: 90%;
 }
 
 /*******Contact*******/
