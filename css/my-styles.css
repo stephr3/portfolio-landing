@@ -73,7 +73,7 @@ ul {
   min-height:100vh;
 }
 
-#home, #about {
+#home, #projects {
   background-image: url("../img/floral-background.jpg");
   background-attachment: fixed;
   background-position: center center;
@@ -93,7 +93,7 @@ ul {
   max-width: 50%;
 }
 
-#home .title-content h1,h3 {
+#home .title-content h1, #home .title-content h3 {
   text-align: center;
 }
 
@@ -113,6 +113,18 @@ ul {
   padding-top: 15vh;
 }
 
+div.caption h3 {
+  font-family: 'Lato', sans-serif;
+}
+
+.project-image {
+  height: 200px;
+  width: 200px;
+}
+
+.project-image:hover {
+  opacity: .8;
+}
 /*******About*******/
 #about h4 {
   margin-top:0;
