@@ -99,6 +99,8 @@ ul {
   float: left;
   margin: 2vh;
   padding: 1vh;
+  width: 200px;
+  height: 200px;
 }
 
 #projects p:first-of-type strong:first-of-type {
